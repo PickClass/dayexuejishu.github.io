@@ -14,6 +14,11 @@ const withNextra = require('nextra')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    images:{
+        path:'',
+        loader: 'imgix',
+
+    },
     // next 工程本身配置内容
     reactStrictMode: true,
 }
